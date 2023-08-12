@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.body1 {
+
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+ 
+    background-image: url('../assets/img/fondo-login.jpg');
+    background-size: cover;
+    color: #3f3f3f;
+
+}
+.body2 {
+
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  
+    background-image: url('../assets/img/fondo-registro.jpg');
+    background-size: cover;
+ background-position: center;
+    color: #3f3f3f;
+
+}
+
+a{
+    text-decoration: none;
+    color: #3f3f3f;
+}
+a:hover{
+    text-decoration: none;
+    color: #ff6c3f;
+}
+
+.contenedor{
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.38);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);
+    border: 1px solid rgba(255, 255, 255, 0.21);
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+.botonera{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.botonera button{
+    width: 50%;
+    border-radius: 20px;
+    color: #fff !important;
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; 
+    color: #fff !important;
+}
+.border{
+    border: none;
+    border-bottom: 5px;
+    border-top: 6px solid #7ed393;
+    background: none;
+    color: none;
+    border-radius: 30px;
+}
+
+.formulario{
+    /* padding: 30px; */
+}
+
+.container-icon{
+    display: flex;
+    align-items: center;
+
+}
+.container-icon p{
+    margin: 0;
+}
+.btn-login{
+    background-color: #9507b3 ;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+
+
+}
+.formulario .form-group{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"]{
+    width: 60%;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300; 
+    font-size: 18px;
+    line-height: 18px;
+    vertical-align: top;
+    border-radius: 20px;
+    background: rgba(166, 255, 113, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.6px);
+    -webkit-backdrop-filter: blur(9.6px);
+    border: 1px solid rgba(166, 255, 113, 0.21);
+}
+
+
+.formulario .icono{
+    padding: 15px;
+    text-align: center;
+    width: 48px;
+    max-height: 48px;
+    font-size: 18px;
+    line-height: 18px;
+    display: inline-block;
+    color: rgb(54, 54, 54);
+    vertical-align: top;
+}
+
+
+
+
+.formulario .usuario,
+.formulario.password{
+    border-radius: 0 3px 3px 0;
+}
+
+.formulario .password_btn{
+    width: calc(100% - 105px);
+}
+
+.formulario .error ul{
+    padding: 0 15px;
+}
+
+.formulario.error ul li{
+    margin-bottom: 10px;
+}
+
+.cerrar-sesion{
+    color: #fff;
+}
+.cerrar-sesion i {
+    font-size: 30px;
+}
+.formulario .submit-btn{
+    padding: 15px;
+    text-align: center;
+    width: 48px;
+    font-size: 18px;
+    background:#ff846e;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.texto-registrate{
+    text-align: center;
+}
+.texto{
+    text-align: center;
+}
+
+.texto-registrate-enlace{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+.contenido article{
+    padding: 30px;
+}
+
+.contenido article p{
+    margin-bottom: 10px;
+    color: #3f3f3f;
+}

@@ -1,0 +1,28 @@
+h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 40px 0;
+    color: #fff;
+}
+body{
+    background-image: url('../assets/img/fondo-home.jpg');
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif !important;
+}
+label{
+ color: #fff;   
+ font-family: 'Poppins', sans-serif !important;
+ font-weight: 700;
+}
+.img{
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #fff;
+}
+.btn-secondary{
+    margin: 0 !important;
+}
